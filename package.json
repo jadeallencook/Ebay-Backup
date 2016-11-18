@@ -1,0 +1,23 @@
+{
+  "name": "ebay-backup",
+  "version": "1.0.0",
+  "description": "Backup your ebay listings.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/jadeallencook/Ebay-Backup",
+  "keywords": [
+    "ebay",
+    "backup"
+  ],
+  "author": "Jade Allen Cook",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "download-image": "^1.0.1",
+    "electron": "^1.4.1",
+    "fetch": "^1.1.0",
+    "ipc": "0.0.1",
+    "jquery": "^3.1.1"
+  }
+}

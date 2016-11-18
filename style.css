@@ -1,0 +1,54 @@
+/* normalize */
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Helvetica';
+}
+
+/* app */
+
+div#app {
+    width: 100%;
+    text-align: center;
+}
+
+img#ebay-logo {
+    width: 300px;
+    display: block;
+    margin: 25px auto 25px auto;
+}
+
+div#app input[type="text"] {
+    display: block;
+    margin: 0px auto 5px auto;
+    padding: 5px;
+    width: 250px;
+}
+
+div#app button#start {
+    display: block;
+    margin: 25px auto 5px auto;
+    padding: 5px;
+    width: 250px;
+}
+
+div#loading-container {
+    margin: 0px auto;
+    width: 500px;
+}
+
+div#feed {
+    margin: 25px auto;
+    width: 500px;
+    text-align: left;
+    font-size: 0.75em;
+    height: 300px;
+    overflow-x: scroll;
+}
+
+img.thumb {
+    display: inline-block;
+    width: 100px;
+}
